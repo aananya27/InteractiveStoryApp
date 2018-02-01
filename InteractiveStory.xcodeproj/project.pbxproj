@@ -14,6 +14,7 @@
 		BE88C79A1E2413B1001B2033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE88C7981E2413B1001B2033 /* LaunchScreen.storyboard */; };
 		BE88C7A21E253E89001B2033 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88C7A11E253E89001B2033 /* Story.swift */; };
 		BE88C7A41E25410C001B2033 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88C7A31E25410C001B2033 /* Page.swift */; };
+		D45CCB182013AB3700C2B952 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CCB172013AB3700C2B952 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BE88C79B1E2413B1001B2033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE88C7A11E253E89001B2033 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		BE88C7A31E25410C001B2033 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		D45CCB172013AB3700C2B952 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BE88C7911E2413B1001B2033 /* ViewController.swift */,
 				BE88C7A11E253E89001B2033 /* Story.swift */,
 				BE88C7A31E25410C001B2033 /* Page.swift */,
+				D45CCB172013AB3700C2B952 /* PageController.swift */,
 				BE88C7931E2413B1001B2033 /* Main.storyboard */,
 				BE88C7961E2413B1001B2033 /* Assets.xcassets */,
 				BE88C7981E2413B1001B2033 /* LaunchScreen.storyboard */,
@@ -102,7 +105,7 @@
 				TargetAttributes = {
 					BE88C78B1E2413B1001B2033 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R9E84DX62H;
+						DevelopmentTeam = 2FHJ74QEG7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -147,6 +150,7 @@
 				BE88C7901E2413B1001B2033 /* AppDelegate.swift in Sources */,
 				BE88C7A41E25410C001B2033 /* Page.swift in Sources */,
 				BE88C7A21E253E89001B2033 /* Story.swift in Sources */,
+				D45CCB182013AB3700C2B952 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R9E84DX62H;
+				DEVELOPMENT_TEAM = 2FHJ74QEG7;
 				INFOPLIST_FILE = InteractiveStory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.InteractiveStory;
@@ -280,7 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R9E84DX62H;
+				DEVELOPMENT_TEAM = 2FHJ74QEG7;
 				INFOPLIST_FILE = InteractiveStory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.InteractiveStory;
@@ -308,6 +312,7 @@
 				BE88C7A01E2413B1001B2033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
