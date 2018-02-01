@@ -23,7 +23,8 @@ class ViewController: UIViewController {
         if segue.identifier == "startAdventure"{
             //the return type is simply a UIViewcontroller object
             //as! - implies = "this might trap"
-            //as? - imlpies = "might be nil"
+            //as? - implies = "might be nil"
+            
             guard let pageController = segue.destination as? PageController else {return }
             //assigning the value to the page property
             pageController.page = Adventure.story
