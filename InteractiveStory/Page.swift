@@ -2,9 +2,8 @@
 //  Page.swift
 //  InteractiveStory
 //
-//  Created by Screencast on 1/10/17.
-//  Copyright © 2017 Treehouse Island. All rights reserved.
-//
+//  Created by Aananya
+
 
 import Foundation
 

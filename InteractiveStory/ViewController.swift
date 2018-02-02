@@ -2,9 +2,7 @@
 //  ViewController.swift
 //  InteractiveStory
 //
-//  Created by Screencast on 1/9/17.
-//  Copyright © 2017 Treehouse Island. All rights reserved.
-//
+//  Created by Aananya
 
 import UIKit
 
