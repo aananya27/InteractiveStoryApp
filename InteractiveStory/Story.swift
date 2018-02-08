@@ -4,6 +4,8 @@
 //
 //  Created by Aananya
 
+
+
 import UIKit
 
 enum Story {
@@ -17,8 +19,6 @@ enum Story {
     case droid
     case home
 }
-
-
 
 extension Story {
     var artwork: UIImage {
