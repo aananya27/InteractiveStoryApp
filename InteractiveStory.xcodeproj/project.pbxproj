@@ -15,6 +15,10 @@
 		BE88C7A21E253E89001B2033 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88C7A11E253E89001B2033 /* Story.swift */; };
 		BE88C7A41E25410C001B2033 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88C7A31E25410C001B2033 /* Page.swift */; };
 		D45CCB182013AB3700C2B952 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CCB172013AB3700C2B952 /* PageController.swift */; };
+		D4FCBBBF202CE10E0015CBFE /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = D4FCBBBC202CE10E0015CBFE /* Ominous.wav */; };
+		D4FCBBC0202CE10E0015CBFE /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D4FCBBBD202CE10E0015CBFE /* HappyEnding.wav */; };
+		D4FCBBC1202CE10E0015CBFE /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D4FCBBBE202CE10E0015CBFE /* PageTurn.wav */; };
+		D4FCBBC3202CE1420015CBFE /* audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCBBC2202CE1420015CBFE /* audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		BE88C7A11E253E89001B2033 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		BE88C7A31E25410C001B2033 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		D45CCB172013AB3700C2B952 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		D4FCBBBC202CE10E0015CBFE /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
+		D4FCBBBD202CE10E0015CBFE /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		D4FCBBBE202CE10E0015CBFE /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		D4FCBBC2202CE1420015CBFE /* audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 		BE88C7831E2413B1001B2033 = {
 			isa = PBXGroup;
 			children = (
+				D4FCBBC2202CE1420015CBFE /* audio.swift */,
 				BE88C78E1E2413B1001B2033 /* InteractiveStory */,
 				BE88C78D1E2413B1001B2033 /* Products */,
 			);
@@ -67,10 +76,21 @@
 				D45CCB172013AB3700C2B952 /* PageController.swift */,
 				BE88C7931E2413B1001B2033 /* Main.storyboard */,
 				BE88C7961E2413B1001B2033 /* Assets.xcassets */,
+				D4FCBBBB202CE08A0015CBFE /* Resources */,
 				BE88C7981E2413B1001B2033 /* LaunchScreen.storyboard */,
 				BE88C79B1E2413B1001B2033 /* Info.plist */,
 			);
 			path = InteractiveStory;
+			sourceTree = "<group>";
+		};
+		D4FCBBBB202CE08A0015CBFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4FCBBBD202CE10E0015CBFE /* HappyEnding.wav */,
+				D4FCBBBC202CE10E0015CBFE /* Ominous.wav */,
+				D4FCBBBE202CE10E0015CBFE /* PageTurn.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE88C79A1E2413B1001B2033 /* LaunchScreen.storyboard in Resources */,
+				D4FCBBBF202CE10E0015CBFE /* Ominous.wav in Resources */,
+				D4FCBBC0202CE10E0015CBFE /* HappyEnding.wav in Resources */,
 				BE88C7971E2413B1001B2033 /* Assets.xcassets in Resources */,
+				D4FCBBC1202CE10E0015CBFE /* PageTurn.wav in Resources */,
 				BE88C7951E2413B1001B2033 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +173,7 @@
 				BE88C7901E2413B1001B2033 /* AppDelegate.swift in Sources */,
 				BE88C7A41E25410C001B2033 /* Page.swift in Sources */,
 				BE88C7A21E253E89001B2033 /* Story.swift in Sources */,
+				D4FCBBC3202CE1420015CBFE /* audio.swift in Sources */,
 				D45CCB182013AB3700C2B952 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
